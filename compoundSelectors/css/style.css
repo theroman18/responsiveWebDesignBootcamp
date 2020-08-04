@@ -33,34 +33,37 @@ header {
     color: white;
 }
 
-.section-two a {
+.section-two-link { 
     color: black;
 }
 
-.section-one .btn {
+
+/* button styles */
+
+.btn-yellow {
     display: inline-block;
-    margin-top: 25px;
-    padding: 10px 25px;
-    background-color: #FFE600;
-    color: black;
+    padding: 12px 25px;
+    background: #FFE600;
+    color: #000;
     font-weight: bold;
     text-decoration: none;
 }
 
-.section-one .btn:hover {
+.btn-yellow:hover {
     background: white;
 }
 
-.section-two .btn {
+.btn-black {
     display: inline-block;
-    padding: 15px 30px;
-    background-color: black;
-    color: white;
+    padding: 12px 25px;
+    background: #000;
+    color: #fff;
     font-weight: bold;
     text-decoration: none;
 }
 
-.section-two .btn:hover {
+.btn-black:hover {
     background: #FFE600;
     color: black;
 }
+
