@@ -20,6 +20,7 @@ h1 {
 
 h2 {
     font-size: 24px;
+    margin: 0;
     color: #ef5839;
 }
 
@@ -64,32 +65,22 @@ a:focus {
 
 header {
     background: #2e354f;
-    padding: 45px 0;
     color: #fff;
+    padding: 45px 0;
 }
 
 section {
     padding: 45px 0;
 }
 
+.container {
+    width: 620px;
+    margin: 0 auto;
+    /* border: 2px solid magenta; */
+}
+
 .section-two {
     background: #2e354f;
     color: #fff;
 }
-
-.container {
-	width: 620px;
-    margin: 0 auto;
-}
-
-
-
-
-
-
-
-
-
-
-
 
